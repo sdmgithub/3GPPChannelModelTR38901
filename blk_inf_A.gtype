@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="C0835BD3CFAD1CBEF998C5A1621BA45B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@687431f7a43141f7909bc20a5da71fe0" Friends="" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]blk_inf" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="7.5" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+				<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]34" Id="9" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]34" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@687431f7a43141f7909bc20a5da71fe0" Id="27" Name="Child">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0</Field1>
+					<Field2>0</Field2>
+					<Field3>null</Field3>
+					<Field4>0x0</Field4>
+					<Field5>0</Field5>
+					<Field6>0x0</Field6>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="10" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="11" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Bindings="Envoy,DefinitionReference,DefaultTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="12" ModelDefinitionType="DefaultTarget" Name="blk_inf\.gtype" NameTracksFileName="True">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.PanelCommon.SourceModel.ControlDefinition,EmbeddedReference" Id="13" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="14" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]None" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@687431f7a43141f7909bc20a5da71fe0" Height="[float]117" Id="15" Label="[UIModel]26" Left="[float]667" Top="[float]215" Value="{DataItemBinding Id=27}" Width="[float]371" xmlns="http://www.ni.com/PanelCommon">
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="16" IsTypeAheadEnabled="[bool]True" Label="[UIModel]17" Left="[float]146" Top="[float]23" Value="{ClusterBinding FieldName=Class\ (for\ NSB)}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]211" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<EnumSelectorInfo DisplayValue="[string]Pedestrian" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Cyclist" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]City Motorist" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Freeway Motorist" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Train" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="17" LabelOwner="[UIModel]16" Left="[float]146" Text="[string]Class (for NSB)" Top="[float]0" Width="[float]78" />
+						<ArrayViewer ArrayElement="[UIModel]24" BaseName="[string]Array" Columns="[int]3" Dimensions="[int]1" Height="[float]36" Id="18" IndexVisibility="[Visibility]Visible" Label="[UIModel]19" Left="[float]148" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]71" Value="{ClusterBinding FieldName=Location\ (X\,Y\,Z)}" Width="[float]211">
+							<p.DefaultElementValue>0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="24" Interval="[int]1" Label="[UIModel]25" Left="[float]53" MinHeight="[float]22" Top="[float]7" Value="[int]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]49" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+								<Label Height="[float]16" Id="25" IsVisualChild="[bool]False" LabelOwner="[UIModel]24" Left="[float]53" Text="[string]Numeric" Top="[float]-16" Width="[float]46" xmlns="http://www.ni.com/PanelCommon" />
+							</NumericText>
+						</ArrayViewer>
+						<Label Height="[float]16" Id="19" LabelOwner="[UIModel]18" Left="[float]148" Text="[string]Location (X,Y,Z)" Top="[float]48" Width="[float]82" />
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="20" IsTypeAheadEnabled="[bool]True" Label="[UIModel]21" Left="[float]77" Top="[float]24" Value="{ClusterBinding FieldName=Type}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<EnumSelectorInfo DisplayValue="[string]SB" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]NSB" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="21" LabelOwner="[UIModel]20" Left="[float]77" Text="[string]Type" Top="[float]1" Width="[float]26" />
+						<NumericText BaseName="[string]Numeric" Height="[float]22" Id="22" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]23" Left="[float]77" MinHeight="[float]22" Top="[float]74" Value="{ClusterBinding FieldName=Attenuation}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]61" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="23" LabelOwner="[UIModel]22" Left="[float]77" Text="[string]Attenuation" Top="[float]51" Width="[float]63" />
+						<NumericText BaseName="[string]Numeric" Height="[float]22" Id="28" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]29" Left="[float]4" MinHeight="[float]22" Top="[float]26" Value="{ClusterBinding FieldName=Cl.\ No.}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]61" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="29" LabelOwner="[UIModel]28" Left="[float]4" Text="[string]Cl. No." Top="[float]3" Width="[float]35" />
+						<NumericText BaseName="[string]Numeric" Height="[float]22" Id="30" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]31" Left="[float]4" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]73" Value="{ClusterBinding FieldName=t}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]61" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="31" LabelOwner="[UIModel]30" Left="[float]4" Text="[string]t" Top="[float]50" />
+					</Cluster>
+					<Label Height="[float]16" Id="26" LabelOwner="[UIModel]15" Left="[float]667" Text="[string]Blocker Info (A)" Top="[float]192" Width="[float]82" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="687431f7a43141f7909bc20a5da71fe0">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Type">
+						<DataType>
+							<Enumeration>
+								<Members>
+									<EnumerationMember Value="0" Name="SB" />
+									<EnumerationMember Value="1" Name="NSB" />
+								</Members>
+								<DataType>
+									<UInt16 />
+								</DataType>
+							</Enumeration>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Class (for NSB)">
+						<DataType>
+							<Enumeration>
+								<Members>
+									<EnumerationMember Value="0" Name="Pedestrian" />
+									<EnumerationMember Value="1" Name="Cyclist" />
+									<EnumerationMember Value="2" Name="City Motorist" />
+									<EnumerationMember Value="3" Name="Freeway Motorist" />
+									<EnumerationMember Value="4" Name="Train" />
+								</Members>
+								<DataType>
+									<UInt16 />
+								</DataType>
+							</Enumeration>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Location (X,Y,Z)">
+						<DataType>
+							<VariableArray DereferenceType="Int32" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Attenuation" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Cl. No." DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="t" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5FC1B7C7FE638A0A26F51CF1A1C411C9" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 20 20" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]20" Id="3" Left="[float]0" Top="[float]0" Width="[float]20">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="59" Left="[float]0" TemplateName="GreenNoText" Top="[float]0">
+					<Rectangle Fill="[SMSolidColorBrush]#ffa9af91" Id="60" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffeef8cd" Id="61" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+				</IconTemplate>
+				<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]14" Id="9" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]14">
+					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]14" Id="121" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" Width="[float]14" />
+					<Ellipse EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#00ffffff" Height="[float]5" Id="128" IsCircle="[bool]True" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]5" Width="[float]5" />
+				</Canvas>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="20" Id="10" ListViewHeight="70" ListViewWidth="150" Width="20" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="322" />
+			<ConnectorPaneTerminal Hotspot="20 5" ListViewHotspot="150 50" Parameter="330" />
+			<ConnectorPaneTerminal Hotspot="20 15" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="11" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Height="[float]1600" Id="12" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
+			<ArrayViewer ArrayElement="[UIModel]325" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="328" IndexVisibility="[Visibility]Visible" Left="[float]0" Name="[string]angle (rad)" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]0" Value="{DataItemBinding Id=322}" Width="[float]130" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0x0</p.DefaultElementValue>
+				<NumericText BaseName="[string]Numeric" Height="[float]22" Id="325" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Left="[float]0" MinHeight="[float]22" Name="[string]Child" Top="[float]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<ArrayViewer ArrayElement="[UIModel]333" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="336" IndexVisibility="[Visibility]Visible" Left="[float]0" Name="[string]angle (deg)" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]0" Value="{DataItemBinding Id=330}" Width="[float]130" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0x0</p.DefaultElementValue>
+				<NumericText BaseName="[string]Numeric" Height="[float]22" Id="333" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]0" MinHeight="[float]22" Name="[string]Child" Top="[float]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="13">
+			<Wire Id="18" Joints="N(327:Value) N(317:o0)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="327" Bounds="832 475 63 14" Id="329" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>angle (rad)</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="335" Bounds="1250 485 65 14" Id="337" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>angle (deg)</p.Text>
+			</NodeLabel>
+			<Wire Id="38" Joints="N(320:o0) N(335:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+			<ForLoop Bounds="973 433 175 125" DiagramId="130" Id="129">
+				<LoopIteration Bounds="5 95 15 15" Id="132" />
+				<Divide Bounds="40 60 30 30" Id="15" />
+				<Multiply Bounds="85 40 30 30" Id="16" Terminals="o=319, c0t0v=316, c1t0v=17" />
+				<Literal Bounds="28 60 12 10" DataType="Double" Facade="DockedConstantFacade" Id="20" Label="25" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>0x4066800000000000</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					<DockedConstantFacade UndockedSize="42 16" />
+				</Literal>
+				<Literal Bounds="28 75 12 10" DataType="Double" Facade="DockedConstantFacade" Id="22" xmlns="http://www.ni.com/MocCommon">
+					<p.ConstantDoubleData>3.1415926535897931</p.ConstantDoubleData>
+					<p.Data>0x400921FB54442D18</p.Data>
+					<NumericBehavior Interpretation="Exact" SearchTerm="Pi" ValueFormatter="LV:R" />
+					<ModelFacade Facade="Pi" xmlns="http://www.ni.com/PlatformFramework" />
+					<DockedConstantFacade UndockedSize="39.5 15" />
+				</Literal>
+				<NodeLabel AttachedTo="20" Bounds="28 60 0 0" Id="25" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>y</p.Text>
+				</NodeLabel>
+				<Wire Id="316" Joints="N(317:i0) N(16:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="319" Joints="N(16:o) N(320:i0)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="17" Joints="N(15:x/y) h(10) v(-15) N(16:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Facade="WireInvisibleFacade" Id="127" Joints="N(22:Out) N(15:y)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Facade="WireInvisibleFacade" Id="126" Joints="N(20:Out) N(15:x)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="131" Terminals="129, 130" />
+				<LoopTunnel AutoIndex="True" Bounds="-5 42 13 10" Docking="Left" Id="317" Terminals="o0=18, i0=316" TunnelMode="0" />
+				<LoopTunnel AutoIndex="True" Bounds="165 52 13 10" Docking="Right" Id="320" Terminals="o0=38, i0=319" TunnelMode="0" />
+			</ForLoop>
+			<DataAccessor Bounds="900 475 40 15" DataItem="322" Id="327" Label="329" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="1205 485 40 15" DataItem="330" Id="335" Label="337" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="Double[]" Id="322" Name="angle (rad)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="Double[]" Id="330" Name="angle (deg)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

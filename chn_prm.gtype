@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="67969C9F7F4A7093E82968328328FE68" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@469b07bf030647b68a110a3cf8368f0f" Friends="" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="UP_sys\.gtype" />
+			<TypeDefinitionTarget TargetName="UP_lnk\.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]chn_prm" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+				<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]34" Id="9" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]34" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@469b07bf030647b68a110a3cf8368f0f" Id="22" Name="chn_prm">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0x0</Field1>
+					<Field2>null</Field2>
+					<Field3>
+						<Cluster>
+							<Field1>
+								<Array Lengths="4" IsBinary="True" Compression="GZip">
+									<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMFiDmYIOKAFkXDjCVq7TX2nGwtS6buSayoRPIWm18TnB/82w7bgBnHDSUQwAAAA==</BinaryElements>
+								</Array>
+							</Field1>
+							<Field2>
+								<Array Lengths="4" IsBinary="True" Compression="GZip">
+									<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMFiDmZAIRzCACzGUFEjxsQCLZL7EkMz8vMcczr7ikqDQ3Na+kWM85Pzc3P09HISy1qBgoaWtoqmeoZ2KgZ2JpaGqko+BcmlNSWpRqm5daWlKUmKOjEFCalJOZ7J1aGZKfnZpnm5JslphiZmBmZGmSlmxkacEKslwRh0UFOakVLvlAA1JBqliCUhNzOD1zE9Mz8xKLKhkY2NjYGGDggz2MxQjyCUh97tF/m6o/XUFIsEAlntkvub+Pbw9CghUqUf/bquBcxya4BDcAgh0iQzUBAAA=</BinaryElements>
+								</Array>
+							</Field2>
+						</Cluster>
+					</Field3>
+					<Field4>0x4090000000000000</Field4>
+					<Field5>0x4090000000000000</Field5>
+					<Field6>1</Field6>
+					<Field7>
+						<Cluster>
+							<Field1>0</Field1>
+							<Field2>0x421A13B860000000</Field2>
+							<Field3>1</Field3>
+							<Field4>15_35_10_0x4036000000000000_0x4028000000000000_0x4008000000000000_0x0_1_1_1_1_0_</Field4>
+							<Field5>
+								<Array Lengths="1" IsBinary="True" Compression="GZip">
+									<BinaryElements>H4sIAAAAAAAEAM1VWU/bQBB2mmRjQ47S0pYbc18mJIEUeEBVCWqLgLQSh1pFKN04S2KxtiOvjRqk/oH+6XbG2EAUKDwgtY787XyzMzuzOxOvFJEk6Tc8OOKTfAZQKVPXsC3Kdy3hOp7JLFdkS7bDNPWEOQKmttayxWwhm9PUksddz2FbFvNch3JN/eLVuKHvsfaRfc6srQKjtEjPchura6xQyNfjGKl4V4Ad6tITyj0GsbgnXOZ8MBivl2zOmY7mMfAkZ6gTcYuaTPT45KjdYiKjX7mUaIvqhtuOkqj0K3LYBp2ZvVlCZD8yizmGnt03hPs9X6ncYbKLc5pqCt12uFG7vekc/h7edG19nRb14tv8Juw6t7F5evrz8angfp44uoxVVaIIeIhKHADrEEPV/3RMmA+pGhBKxKvCuGRy9eJqVZgZui+JyqksKwRcXwRvXywQSAJAblaPj9R5c4HIuO8LosAQbzWN6gXpATHhNplLgfTitEuSMKQ/m6xBwU+jvNWkJAW61LWuBvYk3WHWoKZJSQaXu8TVnB/kOcb+FsbuQ/Y1ZJhcrKyB1UuUDlDqx4TL1QbKr1A+uJJfY1oeeQND/67lOnbd05m6zW39nDaYeEcGcLeHjJ8t11BpWA31wK6zGJb53zbeX+uZuhXXL+HgrRImsJ5+k6rwRgfuq70yhA09jDCCMIowhjCOgM7KBMIkwhTCNMIMwizCHMI8wgLCIsISljudGOzIofdWvoqGZsuPBO1hWAkhlc4MBVFl7NfMcMBI8ImWMiNdmtEuzViXZrxLo3ZpJro0k12aqTC7KrLpkO0jmwkZQma2g811sPkOthAyP8JiwCJSZulajOExjQclOLbgG38ITUy5cenfJZ9sXmcO9lsMLxLFt8BKJd8Lwcwab5fhyohIEZnkwCgZLAT/p9WCf7HkAfaesPkjWHnMmRSkm17fscGL+R9hDBhZCY3WANKB0bZtc0ata6veP2I9U9anBwAA</BinaryElements>
+								</Array>
+							</Field5>
+							<Field6>True</Field6>
+						</Cluster>
+					</Field7>
+					<Field8>
+						<Array Lengths="5" IsBinary="True" Compression="GZip">
+							<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMViDmYIOKAFme6/fM+nS9yw7GWgVklTfzfvmquAXIWqP1qmkD53k7bgDoVBi9TQAAAA==</BinaryElements>
+						</Array>
+					</Field8>
+					<Field9>null</Field9>
+					<Field10>null</Field10>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="UP_sys\.gtype" />
+				<TypeDefinitionTarget TargetName="UP_lnk\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="10" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="11" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Bindings="Envoy,DefinitionReference,DefaultTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="12" ModelDefinitionType="DefaultTarget" Name="chn_prm\.gtype" NameTracksFileName="True">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.PanelCommon.SourceModel.ControlDefinition,EmbeddedReference" Id="13" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="14" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]None" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@469b07bf030647b68a110a3cf8368f0f" Height="[float]979" Id="15" Label="[UIModel]21" Left="[float]29" Top="[float]111" Value="{DataItemBinding Id=22}" Width="[float]1971" xmlns="http://www.ni.com/PanelCommon">
+						<NumericText BaseName="[string]Numeric" Height="[float]22" Id="16" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]17" Left="[float]275" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]79" Value="{ClusterBinding FieldName=Eb/N0\ (dB)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="17" LabelOwner="[UIModel]16" Left="[float]275" Text="[string]Eb/N0 (dB)" Top="[float]56" Width="[float]58" />
+						<ArrayViewer ArrayElement="[UIModel]26" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]108" Id="25" IndexEditorWidth="[double]42" IndexVisibility="[Visibility]Visible" Label="[UIModel]27" Left="[float]747" Orientation="[SMOrientation]Vertical" Rows="[int]4" Top="[float]198" Value="{ClusterBinding FieldName=Channel\ Estimate}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]232">
+							<p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="26" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[ComplexDouble]1 + 0i" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]79" Value="[ComplexDouble]0 + 0i" ValueFormatter="[string]LV:G6" ValueType="[Type]ComplexDouble" Width="[float]153" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Height="[float]16" Id="27" LabelOwner="[UIModel]25" Left="[float]747" Text="[string]Channel Estimate" Top="[float]175" Width="[float]92" />
+						<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@c04d7666102c4fd89828e05f92f4e1e6" Height="[float]146" Id="28" Label="[UIModel]35" Left="[float]5" Top="[float]141" Value="{ClusterBinding FieldName=User\ Defined\ ISI\ Channel\ Response}" Width="[float]435">
+							<ArrayViewer ArrayElement="[UIModel]33" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]108" Id="29" IndexVisibility="[Visibility]Visible" Label="[UIModel]31" Left="[float]5" Orientation="[SMOrientation]Vertical" Rows="[int]4" Top="[float]23" Value="{ClusterBinding FieldName=Delay}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]149">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="33" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]79" Value="[double]4.1000000000000004E-07" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<ArrayViewer ArrayElement="[UIModel]34" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]108" Id="30" IndexVisibility="[Visibility]Visible" Label="[UIModel]32" Left="[float]190" Orientation="[SMOrientation]Vertical" Rows="[int]4" Top="[float]23" Value="{ClusterBinding FieldName=Gain}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]193">
+								<p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="34" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[ComplexDouble]1 + 0i" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]31" Value="[ComplexDouble]0.3273 + 0i" ValueFormatter="[string]LV:G6" ValueType="[Type]ComplexDouble" Width="[float]114" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							</ArrayViewer>
+							<Label Height="[float]16" Id="31" LabelOwner="[UIModel]29" Left="[float]5" Text="[string]Delay" Top="[float]0" Width="[float]30" />
+							<Label Height="[float]16" Id="32" LabelOwner="[UIModel]30" Left="[float]190" Text="[string]Gain" Top="[float]0" Width="[float]25" />
+						</Cluster>
+						<Label Height="[float]16" Id="35" LabelOwner="[UIModel]28" Left="[float]5" Text="[string]User Defined ISI Channel Response" Top="[float]118" Width="[float]186" />
+						<NumericText BaseName="[string]Numeric" Height="[float]22" Id="39" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]40" Left="[float]748" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]93" Value="{ClusterBinding FieldName=tau_rms\ (ns)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="40" LabelOwner="[UIModel]39" Left="[float]748" Text="[string]tau_rms (ns)" Top="[float]70" Width="[float]64" />
+						<NumericText BaseName="[string]Numeric" Height="[float]22" Id="41" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]42" Left="[float]748" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]141" Value="{ClusterBinding FieldName=tau_max\ (ns)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="42" LabelOwner="[UIModel]41" Left="[float]748" Text="[string]tau_max (ns)" Top="[float]118" Width="[float]67" />
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="43" IsTypeAheadEnabled="[bool]True" Label="[UIModel]44" Left="[float]8" Top="[float]79" Value="{ClusterBinding FieldName=Channel\ Type}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]257" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<EnumSelectorInfo DisplayValue="[string]AWGN" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]User Defined ISI + AWGN" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Frequency Selective Rayleigh + AWGN" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]5G 3GPP SCM + AWGN" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="44" LabelOwner="[UIModel]43" Left="[float]8" Text="[string]Channel Type" Top="[float]56" Width="[float]72" />
+						<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 713,2 " Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]2" Id="48" Left="[float]1" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]2" Top="[float]0" Width="[float]713" xmlns="http://www.ni.com/PlatformFramework" />
+						<Text Id="49" Left="[float]10" MinHeight="[float]11" MinWidth="[float]11" Text="[string]INPUT" TextWrapping="[TextWrapping]Wrap" Top="[float]10" xmlns="http://www.ni.com/PlatformFramework">
+							<FontSetting FontFamily="Segoe UI" FontSize="12" FontStyle="Bold" Id="50" />
+						</Text>
+						<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 716,2 " Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]2" Id="51" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]2" Top="[float]39" Width="[float]716" xmlns="http://www.ni.com/PlatformFramework" />
+						<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@8ce1a4bffe114eadbb020663b1b08e06" Height="[float]642" Id="230" Label="[UIModel]305" Left="[float]7" Top="[float]327" Value="{ClusterBinding FieldName=5G\ 3GPP\ SCM\ Channel\ Parameters}" Width="[float]639" p7:ControlDefinitionChecksum="Kf8NwYYL26JUz+a0vqf+0g==" xmlns:p7="http://www.ni.com/PanelCommon">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="UP_sys\.gtype:ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="231" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]232" Left="[float]0" Top="[float]23" Value="{ClusterBinding FieldName=Scenario}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]240" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+								<EnumSelectorInfo DisplayValue="[string]UMi - Street Canyon" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							</EnumSelector>
+							<p7:Label Height="[float]16" Id="232" LabelOwner="[UIModel]231" Left="[float]0" Text="[string]Scenario" Top="[float]0" Width="[float]46" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="233" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]234" Left="[float]253" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=f_C\ (Hz)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="234" LabelOwner="[UIModel]233" Left="[float]253" Text="[string]f_C (Hz)" Top="[float]0" Width="[float]41" />
+							<p7:ArrayViewer ArrayElement="[UIModel]243" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]490" Id="235" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]236" Left="[float]278" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]142" Value="{ClusterBinding FieldName=UP_UT}" Width="[float]343">
+								<p.DefaultElementValue>0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0_0_0_0_0_0_0_False_False_</p.DefaultElementValue>
+								<p7:Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@f09f9f4952f546e9a9c25ba2f080bcd9" Height="[float]476" Id="243" Label="[UIModel]300" Left="[float]53" Top="[float]7" Width="[float]283">
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="268" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]279" Left="[float]2" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]120" Value="{ClusterBinding FieldName=h_UT\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="269" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]280" Left="[float]195" MinHeight="[float]22" Top="[float]26" Value="{ClusterBinding FieldName=v}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="270" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]281" Left="[float]194" MinHeight="[float]22" Top="[float]73" Value="{ClusterBinding FieldName=phi_v}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="271" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]282" Left="[float]194" MinHeight="[float]22" Top="[float]122" Value="{ClusterBinding FieldName=theta_v}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="272" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]283" Left="[float]195" MinHeight="[float]22" Top="[float]168" Value="{ClusterBinding FieldName=t}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="273" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]284" Left="[float]78" MinHeight="[float]22" Top="[float]24" Value="{ClusterBinding FieldName=Omega_UT\,alpha}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="274" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]285" Left="[float]78" MinHeight="[float]22" Top="[float]70" Value="{ClusterBinding FieldName=Omega_UT\,beta}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="275" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]286" Left="[float]78" MinHeight="[float]22" Top="[float]119" Value="{ClusterBinding FieldName=Omega_UT\,gamma}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="276" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]287" Left="[float]78" MinHeight="[float]22" Top="[float]168" Value="{ClusterBinding FieldName=zeta_rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="277" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]288" Left="[float]1" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]71" Value="{ClusterBinding FieldName=Y_UT\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="278" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]289" Left="[float]0" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]23" Value="{ClusterBinding FieldName=X_UT\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p7:Label Height="[float]16" Id="279" LabelOwner="[UIModel]268" Left="[float]2" Text="[string]h_UT (m)" Top="[float]97" Width="[float]48" />
+									<p7:Label Height="[float]16" Id="280" LabelOwner="[UIModel]269" Left="[float]195" Text="[string]v" Top="[float]3" />
+									<p7:Label Height="[float]16" Id="281" LabelOwner="[UIModel]270" Left="[float]194" Text="[string]phi_v" Top="[float]50" Width="[float]28" />
+									<p7:Label Height="[float]16" Id="282" LabelOwner="[UIModel]271" Left="[float]194" Text="[string]theta_v" Top="[float]99" Width="[float]39" />
+									<p7:Label Height="[float]16" Id="283" LabelOwner="[UIModel]272" Left="[float]195" Text="[string]t" Top="[float]145" />
+									<p7:Label Height="[float]16" Id="284" LabelOwner="[UIModel]273" Left="[float]78" Text="[string]Omega_UT,alpha" Top="[float]1" Width="[float]90" />
+									<p7:Label Height="[float]16" Id="285" LabelOwner="[UIModel]274" Left="[float]78" Text="[string]Omega_UT,beta" Top="[float]47" Width="[float]85" />
+									<p7:Label Height="[float]16" Id="286" LabelOwner="[UIModel]275" Left="[float]78" Text="[string]Omega_UT,gamma" Top="[float]96" Width="[float]101" />
+									<p7:Label Height="[float]16" Id="287" LabelOwner="[UIModel]276" Left="[float]78" Text="[string]zeta_rx" Top="[float]145" Width="[float]37" />
+									<p7:Label Height="[float]16" Id="288" LabelOwner="[UIModel]277" Left="[float]1" Text="[string]Y_UT (m)" Top="[float]48" Width="[float]48" />
+									<p7:Label Height="[float]16" Id="289" LabelOwner="[UIModel]278" Left="[float]0" Text="[string]X_UT (m)" Top="[float]0" Width="[float]48" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="290" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]295" Left="[float]78" MinHeight="[float]22" Top="[float]216" Value="{ClusterBinding FieldName=N\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="291" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]296" Left="[float]2" MinHeight="[float]22" Top="[float]216" Value="{ClusterBinding FieldName=M\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="292" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]297" Left="[float]79" MinHeight="[float]22" Top="[float]263" Value="{ClusterBinding FieldName=N_g\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="293" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]298" Left="[float]2" MinHeight="[float]22" Top="[float]263" Value="{ClusterBinding FieldName=M_g\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="294" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]299" Left="[float]3" MinHeight="[float]22" Top="[float]321" Value="{ClusterBinding FieldName=u}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p7:Label Height="[float]16" Id="295" LabelOwner="[UIModel]290" Left="[float]78" Text="[string]N,rx" Top="[float]193" Width="[float]22" />
+									<p7:Label Height="[float]16" Id="296" LabelOwner="[UIModel]291" Left="[float]2" Text="[string]M,rx" Top="[float]193" Width="[float]24" />
+									<p7:Label Height="[float]16" Id="297" LabelOwner="[UIModel]292" Left="[float]79" Text="[string]N_g,rx" Top="[float]240" Width="[float]34" />
+									<p7:Label Height="[float]16" Id="298" LabelOwner="[UIModel]293" Left="[float]2" Text="[string]M_g,rx" Top="[float]240" Width="[float]36" />
+									<p7:Label Height="[float]16" Id="299" LabelOwner="[UIModel]294" Left="[float]3" Text="[string]u" Top="[float]298" />
+									<p7:Label Height="[float]16" Id="300" IsVisualChild="[bool]False" LabelOwner="[UIModel]243" Left="[float]53" Text="[string]Child" Top="[float]-16" Width="[float]28" />
+									<Switch BaseName="[string]Switch" FalseContent="[string]No" Height="[float]28" Id="301" Label="[UIModel]303" Left="[float]6" MinHeight="[float]26" MinWidth="[float]69.60834" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" Top="[float]383" TrueContent="[string]Yes" Value="{ClusterBinding FieldName=Introduce\ Blockages?}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<Switch BaseName="[string]Switch" FalseContent="[string]Portrait" Height="[float]28" Id="302" Label="[UIModel]304" Left="[float]7" MinHeight="[float]26" MinWidth="[float]163.816666" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" Top="[float]438" TrueContent="[string]Landscape" Value="{ClusterBinding FieldName=Self-blocking\ Mode}" Width="[float]164" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p7:Label Height="[float]16" Id="303" LabelOwner="[UIModel]301" Left="[float]6" Text="[string]Introduce Blockages?" Top="[float]360" Width="[float]113" />
+									<p7:Label Height="[float]16" Id="304" LabelOwner="[UIModel]302" Left="[float]7" Text="[string]Self-blocking Mode" Top="[float]415" Width="[float]104" />
+								</p7:Cluster>
+							</p7:ArrayViewer>
+							<p7:Label Height="[float]16" Id="236" LabelOwner="[UIModel]235" Left="[float]278" Text="[string]UP_UT" Top="[float]119" Width="[float]35" />
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="237" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]238" Left="[float]272" MinHeight="[float]22" Top="[float]76" Value="{ClusterBinding FieldName=No.\ of\ UT}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="238" LabelOwner="[UIModel]237" Left="[float]272" Text="[string]No. of UT" Top="[float]53" Width="[float]51" />
+							<p7:Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@e5fc28189ecc4b44bcc5c7907358d2db" Height="[float]336" Id="239" Label="[UIModel]240" Left="[float]5" Top="[float]142" Value="{ClusterBinding FieldName=UP_BS}" Width="[float]203">
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="244" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]256" Left="[float]1" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]23" Value="{ClusterBinding FieldName=X_BS\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="245" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]257" Left="[float]1" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]68" Value="{ClusterBinding FieldName=Y_BS\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="246" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]258" Left="[float]1" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]113" Value="{ClusterBinding FieldName=h_BS\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="247" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]259" Left="[float]85" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=Omega_BS\,alpha}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="248" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]260" Left="[float]85" MinHeight="[float]22" Top="[float]68" Value="{ClusterBinding FieldName=Omega_BS\,beta}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="249" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]261" Left="[float]85" MinHeight="[float]22" Top="[float]113" Value="{ClusterBinding FieldName=Omega_BS\,gamma}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="250" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]262" Left="[float]85" MinHeight="[float]22" Top="[float]158" Value="{ClusterBinding FieldName=zeta_tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="251" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]263" Left="[float]0" MinHeight="[float]22" Top="[float]212" Value="{ClusterBinding FieldName=M\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="252" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]264" Left="[float]85" MinHeight="[float]22" Top="[float]210" Value="{ClusterBinding FieldName=N\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="253" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]265" Left="[float]0" MinHeight="[float]22" Top="[float]260" Value="{ClusterBinding FieldName=M_g\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="254" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]266" Left="[float]85" MinHeight="[float]22" Top="[float]260" Value="{ClusterBinding FieldName=N_g\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="255" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]267" Left="[float]0" MinHeight="[float]22" Top="[float]304" Value="{ClusterBinding FieldName=s}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p7:Label Height="[float]16" Id="256" LabelOwner="[UIModel]244" Left="[float]1" Text="[string]X_BS (m)" Top="[float]0" Width="[float]47" />
+								<p7:Label Height="[float]16" Id="257" LabelOwner="[UIModel]245" Left="[float]1" Text="[string]Y_BS (m)" Top="[float]45" Width="[float]46" />
+								<p7:Label Height="[float]16" Id="258" LabelOwner="[UIModel]246" Left="[float]1" Text="[string]h_BS (m)" Top="[float]90" Width="[float]46" />
+								<p7:Label Height="[float]16" Id="259" LabelOwner="[UIModel]247" Left="[float]85" Text="[string]Omega_BS,alpha" Top="[float]0" Width="[float]89" />
+								<p7:Label Height="[float]16" Id="260" LabelOwner="[UIModel]248" Left="[float]85" Text="[string]Omega_BS,beta" Top="[float]45" Width="[float]84" />
+								<p7:Label Height="[float]16" Id="261" LabelOwner="[UIModel]249" Left="[float]85" Text="[string]Omega_BS,gamma" Top="[float]90" Width="[float]100" />
+								<p7:Label Height="[float]16" Id="262" LabelOwner="[UIModel]250" Left="[float]85" Text="[string]zeta_tx" Top="[float]135" Width="[float]37" />
+								<p7:Label Height="[float]16" Id="263" LabelOwner="[UIModel]251" Left="[float]0" Text="[string]M,tx" Top="[float]189" Width="[float]23" />
+								<p7:Label Height="[float]16" Id="264" LabelOwner="[UIModel]252" Left="[float]85" Text="[string]N,tx" Top="[float]187" Width="[float]22" />
+								<p7:Label Height="[float]16" Id="265" LabelOwner="[UIModel]253" Left="[float]0" Text="[string]M_g,tx" Top="[float]237" Width="[float]35" />
+								<p7:Label Height="[float]16" Id="266" LabelOwner="[UIModel]254" Left="[float]85" Text="[string]N_g,tx" Top="[float]237" Width="[float]34" />
+								<p7:Label Height="[float]16" Id="267" LabelOwner="[UIModel]255" Left="[float]0" Text="[string]s" Top="[float]281" />
+							</p7:Cluster>
+							<p7:Label Height="[float]16" Id="240" LabelOwner="[UIModel]239" Left="[float]5" Text="[string]UP_BS" Top="[float]119" Width="[float]34" />
+							<Switch BaseName="[string]Switch" FalseContent="[string]No" Height="[float]28" Id="241" Label="[UIModel]242" Left="[float]345" MinHeight="[float]26" MinWidth="[float]69.60834" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" Top="[float]24" TrueContent="[string]Yes" Value="{ClusterBinding FieldName=Align\ BS-UT?}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="242" LabelOwner="[UIModel]241" Left="[float]345" Text="[string]Align BS-UT?" Top="[float]1" Width="[float]69" />
+						</Cluster>
+						<Label Height="[float]16" Id="305" LabelOwner="[UIModel]230" Left="[float]7" Text="[string]5G 3GPP SCM Channel Parameters" Top="[float]304" Width="[float]183" />
+						<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 1151,2 " Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]2" Id="132" Left="[float]713" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]2" Top="[float]0" Width="[float]1151" xmlns="http://www.ni.com/PlatformFramework" />
+						<Text Id="133" Left="[float]747" MinHeight="[float]11" MinWidth="[float]11" Text="[string]OUTPUT" TextWrapping="[TextWrapping]Wrap" Top="[float]10" xmlns="http://www.ni.com/PlatformFramework">
+							<FontSetting FontFamily="Segoe UI" FontSize="12" FontStyle="Bold" Id="134" />
+						</Text>
+						<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 1153,2 " Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]2" Id="135" Left="[float]715" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]2" Top="[float]39" Width="[float]1153" xmlns="http://www.ni.com/PlatformFramework" />
+						<ArrayViewer ArrayElement="[UIModel]137" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]132" Id="136" IndexVisibility="[Visibility]Visible" Label="[UIModel]138" Left="[float]472" Orientation="[SMOrientation]Vertical" Rows="[int]5" Top="[float]141" Value="{ClusterBinding FieldName=Delay\ Vector\ for\ Freq.\ Sel.\ Rayleigh\ Channel\ }" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]149">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="137" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Left="[float]53" MinHeight="[float]22" Name="[string]Child" Top="[float]103" Value="[double]3.7E-06" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Height="[float]16" Id="138" LabelOwner="[UIModel]136" Left="[float]472" Text="[string]Delay Vector for Freq. Sel. Rayleigh Channel " Top="[float]118" Width="[float]235" />
+						<ArrayViewer ArrayElement="[UIModel]151" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]108" Id="150" IndexEditorWidth="[double]42" IndexVisibility="[Visibility]Visible" Label="[UIModel]152" Left="[float]746" Orientation="[SMOrientation]Vertical" Rows="[int]4" Top="[float]334" Value="{ClusterBinding FieldName=Channel}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]232">
+							<p.DefaultElementValue>0x0;0x0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="151" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[ComplexDouble]1 + 0i" Left="[float]54" MinHeight="[float]22" Name="[string]Child" Top="[float]55" Value="[ComplexDouble]0 + 0i" ValueFormatter="[string]LV:G6" ValueType="[Type]ComplexDouble" Width="[float]153" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Height="[float]16" Id="152" LabelOwner="[UIModel]150" Left="[float]746" Text="[string]Channel" Top="[float]311" Width="[float]44" />
+						<ArrayViewer ArrayElement="[UIModel]308" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]799" Id="307" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]419" Left="[float]1001" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]91" Value="{ClusterBinding FieldName=UP_lnk_out_all}" Width="[float]952">
+							<p.DefaultElementValue>
+								<Cluster>
+									<Field1>0</Field1>
+									<Field2>0x0</Field2>
+									<Field3>0x0</Field3>
+									<Field4>0x0</Field4>
+									<Field5>0x0</Field5>
+									<Field6>0x0</Field6>
+									<Field7>0x0</Field7>
+									<Field8>0x0</Field8>
+									<Field9>0x0</Field9>
+									<Field10>0x0_0x0_0x0_0x0_0x0_0x0_0x0_0_0_0_0_0_</Field10>
+									<Field11>0x0</Field11>
+									<Field12>0x0</Field12>
+									<Field13>0x0</Field13>
+									<Field14>0x0</Field14>
+									<Field15>0x0</Field15>
+									<Field16>0x0</Field16>
+									<Field17>0x0</Field17>
+									<Field18>0x0</Field18>
+									<Field19>null</Field19>
+									<Field20>null</Field20>
+									<Field21>0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0x0_0_0_0_0_0_False_False_</Field21>
+									<Field22>False</Field22>
+								</Cluster>
+							</p.DefaultElementValue>
+							<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@e117c3895e024929a1f1fe2c66c1d5ef" Height="[float]855" Id="308" Label="[UIModel]354" Left="[float]54" Top="[float]7" Width="[float]784" p8:ControlDefinitionChecksum="1cS8z6FjYQPNiFVWBJP5AQ==" xmlns:p8="http://www.ni.com/PanelCommon">
+								<p8:p.TypeDefinitionTargets>
+									<p8:TypeDefinitionTarget TargetName="UP_lnk\.gtype:ControlDefinition" />
+								</p8:p.TypeDefinitionTargets>
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="309" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]314" Left="[float]531" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=d_2D\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="310" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]315" Left="[float]237" MinHeight="[float]22" Top="[float]605" Value="{ClusterBinding FieldName=phi_LOS\,AOA}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="311" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]316" Left="[float]26" MinHeight="[float]22" Top="[float]605" Value="{ClusterBinding FieldName=phi_LOS\,AOD}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="312" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]317" Left="[float]238" MinHeight="[float]22" Top="[float]651" Value="{ClusterBinding FieldName=theta_LOS\,ZOA}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="313" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]318" Left="[float]26" MinHeight="[float]22" Top="[float]651" Value="{ClusterBinding FieldName=theta_LOS\,ZOD}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Height="[float]16" Id="314" LabelOwner="[UIModel]309" Left="[float]531" Text="[string]d_2D (m)" Top="[float]0" Width="[float]48" />
+								<p8:Label Height="[float]16" Id="315" LabelOwner="[UIModel]310" Left="[float]237" Text="[string]phi_LOS,AOA" Top="[float]582" Width="[float]70" />
+								<p8:Label Height="[float]16" Id="316" LabelOwner="[UIModel]311" Left="[float]26" Text="[string]phi_LOS,AOD" Top="[float]582" Width="[float]71" />
+								<p8:Label Height="[float]16" Id="317" LabelOwner="[UIModel]312" Left="[float]238" Text="[string]theta_LOS,ZOA" Top="[float]628" Width="[float]80" />
+								<p8:Label Height="[float]16" Id="318" LabelOwner="[UIModel]313" Left="[float]26" Text="[string]theta_LOS,ZOD" Top="[float]628" Width="[float]81" />
+								<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="319" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]320" Left="[float]0" Top="[float]24" Value="{ClusterBinding FieldName=Scenario\ LOS-NLOS}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]203" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+									<EnumSelectorInfo DisplayValue="[string]UMi - Street Canyon (LOS)" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+									<EnumSelectorInfo DisplayValue="[string]UMi - Street Canyon (NLOS)" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+								</EnumSelector>
+								<p8:Label Height="[float]16" Id="320" LabelOwner="[UIModel]319" Left="[float]0" Text="[string]Scenario LOS-NLOS" Top="[float]1" Width="[float]105" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="321" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]322" Left="[float]227" MinHeight="[float]22" Top="[float]24" Value="{ClusterBinding FieldName=f_C\ (Hz)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Height="[float]16" Id="322" LabelOwner="[UIModel]321" Left="[float]227" Text="[string]f_C (Hz)" Top="[float]1" Width="[float]41" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="323" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]324" Left="[float]613" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=d_3D\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Height="[float]16" Id="324" LabelOwner="[UIModel]323" Left="[float]613" Text="[string]d_3D (m)" Top="[float]0" Width="[float]48" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="325" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]326" Left="[float]696" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=lambda_0}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Height="[float]16" Id="326" LabelOwner="[UIModel]325" Left="[float]696" Text="[string]lambda_0" Top="[float]0" Width="[float]52" />
+								<p8:Cluster AutoArrange="[AutoArrange]None" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@8e6f315628f54adab9dccad73554eb1b" Height="[float]353" Id="327" Label="[UIModel]328" Left="[float]22" Top="[float]88" Value="{ClusterBinding FieldName=BS}" Width="[float]203">
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="355" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]367" Left="[float]1" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]23" Value="{ClusterBinding FieldName=X_BS\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="356" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]368" Left="[float]1" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]68" Value="{ClusterBinding FieldName=Y_BS\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="357" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]369" Left="[float]1" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]113" Value="{ClusterBinding FieldName=h_BS\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="358" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]370" Left="[float]85" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=Omega_BS\,alpha}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="359" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]371" Left="[float]85" MinHeight="[float]22" Top="[float]68" Value="{ClusterBinding FieldName=Omega_BS\,beta}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="360" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]372" Left="[float]85" MinHeight="[float]22" Top="[float]113" Value="{ClusterBinding FieldName=Omega_BS\,gamma}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="361" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]373" Left="[float]85" MinHeight="[float]22" Top="[float]158" Value="{ClusterBinding FieldName=zeta_tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="362" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]374" Left="[float]0" MinHeight="[float]22" Top="[float]212" Value="{ClusterBinding FieldName=M\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="363" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]375" Left="[float]85" MinHeight="[float]22" Top="[float]210" Value="{ClusterBinding FieldName=N\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="364" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]376" Left="[float]0" MinHeight="[float]22" Top="[float]260" Value="{ClusterBinding FieldName=M_g\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="365" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]377" Left="[float]85" MinHeight="[float]22" Top="[float]260" Value="{ClusterBinding FieldName=N_g\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="366" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]378" Left="[float]0" MinHeight="[float]22" Top="[float]304" Value="{ClusterBinding FieldName=s}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p8:Label Height="[float]16" Id="367" LabelOwner="[UIModel]355" Left="[float]1" Text="[string]X_BS (m)" Top="[float]0" Width="[float]47" />
+									<p8:Label Height="[float]16" Id="368" LabelOwner="[UIModel]356" Left="[float]1" Text="[string]Y_BS (m)" Top="[float]45" Width="[float]46" />
+									<p8:Label Height="[float]16" Id="369" LabelOwner="[UIModel]357" Left="[float]1" Text="[string]h_BS (m)" Top="[float]90" Width="[float]46" />
+									<p8:Label Height="[float]16" Id="370" LabelOwner="[UIModel]358" Left="[float]85" Text="[string]Omega_BS,alpha" Top="[float]0" Width="[float]89" />
+									<p8:Label Height="[float]16" Id="371" LabelOwner="[UIModel]359" Left="[float]85" Text="[string]Omega_BS,beta" Top="[float]45" Width="[float]84" />
+									<p8:Label Height="[float]16" Id="372" LabelOwner="[UIModel]360" Left="[float]85" Text="[string]Omega_BS,gamma" Top="[float]90" Width="[float]100" />
+									<p8:Label Height="[float]16" Id="373" LabelOwner="[UIModel]361" Left="[float]85" Text="[string]zeta_tx" Top="[float]135" Width="[float]37" />
+									<p8:Label Height="[float]16" Id="374" LabelOwner="[UIModel]362" Left="[float]0" Text="[string]M,tx" Top="[float]189" Width="[float]23" />
+									<p8:Label Height="[float]16" Id="375" LabelOwner="[UIModel]363" Left="[float]85" Text="[string]N,tx" Top="[float]187" Width="[float]22" />
+									<p8:Label Height="[float]16" Id="376" LabelOwner="[UIModel]364" Left="[float]0" Text="[string]M_g,tx" Top="[float]237" Width="[float]35" />
+									<p8:Label Height="[float]16" Id="377" LabelOwner="[UIModel]365" Left="[float]85" Text="[string]N_g,tx" Top="[float]237" Width="[float]34" />
+									<p8:Label Height="[float]16" Id="378" LabelOwner="[UIModel]366" Left="[float]0" Text="[string]s" Top="[float]281" />
+								</p8:Cluster>
+								<p8:Label Height="[float]16" Id="328" LabelOwner="[UIModel]327" Left="[float]22" Text="[string]BS" Top="[float]65" Width="[float]14" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="329" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]339" Left="[float]102" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]771" Value="{ClusterBinding FieldName=d_V_tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="330" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]340" Left="[float]26" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]771" Value="{ClusterBinding FieldName=d_H\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="331" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]341" Left="[float]308" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]771" Value="{ClusterBinding FieldName=d_V_rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="332" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]342" Left="[float]233" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]771" Value="{ClusterBinding FieldName=d_H\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="333" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]343" Left="[float]102" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]823" Value="{ClusterBinding FieldName=d_g\,V\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="334" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]344" Left="[float]26" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]823" Value="{ClusterBinding FieldName=d_g\,H\,tx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="335" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]345" Left="[float]308" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]823" Value="{ClusterBinding FieldName=d_g\,V\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]22" Id="336" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]346" Left="[float]233" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]823" Value="{ClusterBinding FieldName=d_g\,H\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:ArrayViewer ArrayElement="[UIModel]379" BaseName="[string]Numeric Array Input" Columns="[int]1" Dimensions="[int]1" FixedSize="[int]3" Height="[float]38" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="337" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]True" Label="[UIModel]347" Left="[float]235" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]704" Value="{ClusterBinding FieldName=d_rx\,u}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]150">
+									<p.DefaultElementValue>0x0</p.DefaultElementValue>
+									<NumericText Height="[float]24" Id="379" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]417" Left="[float]53" MinHeight="[float]22" Top="[float]7" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]71" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+										<p8:Label Id="417" IsVisualChild="[bool]False" LabelOwner="[UIModel]379" Left="[float]53" Text="[string]Numeric" Top="[float]7" />
+									</NumericText>
+								</p8:ArrayViewer>
+								<p8:ArrayViewer ArrayElement="[UIModel]380" BaseName="[string]Numeric Array Input" Columns="[int]1" Dimensions="[int]1" FixedSize="[int]3" Height="[float]38" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="338" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]True" Label="[UIModel]348" Left="[float]27" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]704" Value="{ClusterBinding FieldName=d_tx\,s}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]150">
+									<p.DefaultElementValue>0x0</p.DefaultElementValue>
+									<NumericText Height="[float]24" Id="380" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]418" Left="[float]53" MinHeight="[float]22" Top="[float]7" Value="[double]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]71" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+										<p8:Label Id="418" IsVisualChild="[bool]False" LabelOwner="[UIModel]380" Left="[float]53" Text="[string]Numeric" Top="[float]7" />
+									</NumericText>
+								</p8:ArrayViewer>
+								<p8:Label Height="[float]16" Id="339" LabelOwner="[UIModel]329" Left="[float]102" Text="[string]d_V_tx" Top="[float]748" Width="[float]35" />
+								<p8:Label Height="[float]16" Id="340" LabelOwner="[UIModel]330" Left="[float]26" Text="[string]d_H,tx" Top="[float]748" Width="[float]33" />
+								<p8:Label Height="[float]16" Id="341" LabelOwner="[UIModel]331" Left="[float]308" Text="[string]d_V_rx" Top="[float]748" Width="[float]35" />
+								<p8:Label Height="[float]16" Id="342" LabelOwner="[UIModel]332" Left="[float]233" Text="[string]d_H,rx" Top="[float]748" Width="[float]33" />
+								<p8:Label Height="[float]16" Id="343" LabelOwner="[UIModel]333" Left="[float]102" Text="[string]d_g,V,tx" Top="[float]800" Width="[float]42" />
+								<p8:Label Height="[float]16" Id="344" LabelOwner="[UIModel]334" Left="[float]26" Text="[string]d_g,H,tx" Top="[float]800" Width="[float]43" />
+								<p8:Label Height="[float]16" Id="345" LabelOwner="[UIModel]335" Left="[float]308" Text="[string]d_g,V,rx" Top="[float]800" Width="[float]42" />
+								<p8:Label Height="[float]16" Id="346" LabelOwner="[UIModel]336" Left="[float]233" Text="[string]d_g,H,rx" Top="[float]800" Width="[float]43" />
+								<p8:Label Height="[float]16" Id="347" LabelOwner="[UIModel]337" Left="[float]235" Text="[string]d_rx,u" Top="[float]681" Width="[float]32" />
+								<p8:Label Height="[float]16" Id="348" LabelOwner="[UIModel]338" Left="[float]27" Text="[string]d_tx,s" Top="[float]681" Width="[float]30" />
+								<p8:Cluster AutoArrange="[AutoArrange]None" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@d1457aa99f4545d7944a4ea23f10860a" Height="[float]472" Id="349" Label="[UIModel]350" Left="[float]237" Top="[float]88" Value="{ClusterBinding FieldName=UT}" Width="[float]279">
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="381" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]392" Left="[float]2" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]120" Value="{ClusterBinding FieldName=h_UT\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="382" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]393" Left="[float]191" MinHeight="[float]22" Top="[float]26" Value="{ClusterBinding FieldName=v}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="383" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]394" Left="[float]190" MinHeight="[float]22" Top="[float]73" Value="{ClusterBinding FieldName=phi_v}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="384" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]395" Left="[float]190" MinHeight="[float]22" Top="[float]122" Value="{ClusterBinding FieldName=theta_v}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="385" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]396" Left="[float]191" MinHeight="[float]22" Top="[float]168" Value="{ClusterBinding FieldName=t}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="386" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]397" Left="[float]78" MinHeight="[float]22" Top="[float]24" Value="{ClusterBinding FieldName=Omega_UT\,alpha}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="387" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]398" Left="[float]78" MinHeight="[float]22" Top="[float]70" Value="{ClusterBinding FieldName=Omega_UT\,beta}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="388" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]399" Left="[float]78" MinHeight="[float]22" Top="[float]119" Value="{ClusterBinding FieldName=Omega_UT\,gamma}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="389" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]400" Left="[float]78" MinHeight="[float]22" Top="[float]168" Value="{ClusterBinding FieldName=zeta_rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="390" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]401" Left="[float]1" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]71" Value="{ClusterBinding FieldName=Y_UT\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="391" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]402" Left="[float]0" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]23" Value="{ClusterBinding FieldName=X_UT\ (m)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p8:Label Height="[float]16" Id="392" LabelOwner="[UIModel]381" Left="[float]2" Text="[string]h_UT (m)" Top="[float]97" Width="[float]48" />
+									<p8:Label Height="[float]16" Id="393" LabelOwner="[UIModel]382" Left="[float]191" Text="[string]v" Top="[float]3" />
+									<p8:Label Height="[float]16" Id="394" LabelOwner="[UIModel]383" Left="[float]190" Text="[string]phi_v" Top="[float]50" Width="[float]28" />
+									<p8:Label Height="[float]16" Id="395" LabelOwner="[UIModel]384" Left="[float]190" Text="[string]theta_v" Top="[float]99" Width="[float]39" />
+									<p8:Label Height="[float]16" Id="396" LabelOwner="[UIModel]385" Left="[float]191" Text="[string]t" Top="[float]145" />
+									<p8:Label Height="[float]16" Id="397" LabelOwner="[UIModel]386" Left="[float]78" Text="[string]Omega_UT,alpha" Top="[float]1" Width="[float]90" />
+									<p8:Label Height="[float]16" Id="398" LabelOwner="[UIModel]387" Left="[float]78" Text="[string]Omega_UT,beta" Top="[float]47" Width="[float]85" />
+									<p8:Label Height="[float]16" Id="399" LabelOwner="[UIModel]388" Left="[float]78" Text="[string]Omega_UT,gamma" Top="[float]96" Width="[float]101" />
+									<p8:Label Height="[float]16" Id="400" LabelOwner="[UIModel]389" Left="[float]78" Text="[string]zeta_rx" Top="[float]145" Width="[float]37" />
+									<p8:Label Height="[float]16" Id="401" LabelOwner="[UIModel]390" Left="[float]1" Text="[string]Y_UT (m)" Top="[float]48" Width="[float]48" />
+									<p8:Label Height="[float]16" Id="402" LabelOwner="[UIModel]391" Left="[float]0" Text="[string]X_UT (m)" Top="[float]0" Width="[float]48" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="403" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]408" Left="[float]2" MinHeight="[float]22" Top="[float]216" Value="{ClusterBinding FieldName=N\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="404" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]409" Left="[float]78" MinHeight="[float]22" Top="[float]217" Value="{ClusterBinding FieldName=M\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="405" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]410" Left="[float]2" MinHeight="[float]22" Top="[float]265" Value="{ClusterBinding FieldName=N_g\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="406" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]411" Left="[float]78" MinHeight="[float]22" Top="[float]266" Value="{ClusterBinding FieldName=M_g\,rx}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="407" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]412" Left="[float]3" MinHeight="[float]22" Top="[float]307" Value="{ClusterBinding FieldName=u}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]70" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p8:Label Height="[float]16" Id="408" LabelOwner="[UIModel]403" Left="[float]2" Text="[string]N,rx" Top="[float]193" Width="[float]22" />
+									<p8:Label Height="[float]16" Id="409" LabelOwner="[UIModel]404" Left="[float]78" Text="[string]M,rx" Top="[float]194" Width="[float]24" />
+									<p8:Label Height="[float]16" Id="410" LabelOwner="[UIModel]405" Left="[float]2" Text="[string]N_g,rx" Top="[float]242" Width="[float]34" />
+									<p8:Label Height="[float]16" Id="411" LabelOwner="[UIModel]406" Left="[float]78" Text="[string]M_g,rx" Top="[float]243" Width="[float]36" />
+									<p8:Label Height="[float]16" Id="412" LabelOwner="[UIModel]407" Left="[float]3" Text="[string]u" Top="[float]284" />
+									<Switch BaseName="[string]Switch" FalseContent="[string]No" Height="[float]28" Id="413" IsReadOnly="[bool]False" Label="[UIModel]414" Left="[float]4" MinHeight="[float]26" MinWidth="[float]69.60834" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" Top="[float]365" TrueContent="[string]Yes" Value="{ClusterBinding FieldName=Introduce\ Blockages?}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p8:Label Height="[float]16" Id="414" LabelOwner="[UIModel]413" Left="[float]4" Text="[string]Introduce Blockages?" Top="[float]342" Width="[float]113" />
+									<Switch BaseName="[string]Switch" FalseContent="[string]Portrait" Height="[float]28" Id="415" IsReadOnly="[bool]False" Label="[UIModel]416" Left="[float]5" MinHeight="[float]26" MinWidth="[float]163.816666" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" Top="[float]420" TrueContent="[string]Landscape" Value="{ClusterBinding FieldName=Self-blocking\ Mode}" Width="[float]164" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p8:Label Height="[float]16" Id="416" LabelOwner="[UIModel]415" Left="[float]5" Text="[string]Self-blocking Mode" Top="[float]397" Width="[float]104" />
+								</p8:Cluster>
+								<p8:Label Height="[float]16" Id="350" LabelOwner="[UIModel]349" Left="[float]237" Text="[string]UT" Top="[float]65" Width="[float]15" />
+								<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 2,447 " Fill="[SMSolidColorBrush]#ff838383" Height="[float]447" Id="351" Left="[float]522" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]1" Top="[float]11" Width="[float]2" xmlns="http://www.ni.com/PlatformFramework" />
+								<Switch BaseName="[string]Switch" FalseContent="[string]No" Height="[float]28" Id="352" IsReadOnly="[bool]False" Label="[UIModel]353" Left="[float]318" MinHeight="[float]26" MinWidth="[float]69.60834" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" Top="[float]24" TrueContent="[string]Yes" Value="{ClusterBinding FieldName=Align\ BS-UT?}" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<p8:Label Height="[float]16" Id="353" LabelOwner="[UIModel]352" Left="[float]318" Text="[string]Align BS-UT?" Top="[float]1" Width="[float]69" />
+								<p8:Label Height="[float]16" Id="354" IsVisualChild="[bool]False" LabelOwner="[UIModel]308" Left="[float]54" Text="[string]Child" Top="[float]-16" Width="[float]15" />
+							</Cluster>
+						</ArrayViewer>
+						<Label Height="[float]16" Id="419" LabelOwner="[UIModel]307" Left="[float]1001" Text="[string]UP_lnk_out_all" Top="[float]68" Width="[float]76" />
+					</Cluster>
+					<Label Height="[float]16" Id="21" LabelOwner="[UIModel]15" Left="[float]29" Text="[string]chn_prm" Top="[float]88" Width="[float]46" xmlns="http://www.ni.com/PanelCommon" />
+					<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 1,978.9999 " Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]978.999939" Id="131" Left="[float]746" MinHeight="[float]0" MinWidth="[float]0" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]2" Top="[float]114" Width="[float]1" xmlns="http://www.ni.com/PlatformFramework" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="469b07bf030647b68a110a3cf8368f0f">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Eb/N0 (dB)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Channel Estimate">
+						<DataType>
+							<VariableArray DereferenceType="ComplexDouble" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="User Defined ISI Channel Response">
+						<DataType>
+							<Composite Id="2" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+								<Members>
+									<Field FieldAccessPolicy="ReadWrite" Name="Delay">
+										<DataType>
+											<VariableArray DereferenceType="Double" />
+										</DataType>
+									</Field>
+									<Field FieldAccessPolicy="ReadWrite" Name="Gain">
+										<DataType>
+											<VariableArray DereferenceType="ComplexDouble" />
+										</DataType>
+									</Field>
+								</Members>
+							</Composite>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="tau_rms (ns)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="tau_max (ns)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Channel Type">
+						<DataType>
+							<Enumeration>
+								<Members>
+									<EnumerationMember Value="0" Name="AWGN" />
+									<EnumerationMember Value="1" Name="User Defined ISI + AWGN" />
+									<EnumerationMember Value="2" Name="Frequency Selective Rayleigh + AWGN" />
+									<EnumerationMember Value="3" Name="5G 3GPP SCM + AWGN" />
+								</Members>
+								<DataType>
+									<UInt16 />
+								</DataType>
+							</Enumeration>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="5G 3GPP SCM Channel Parameters">
+						<DataType>
+							<Typedef TypedefName="UP_sys.gtype" UnderlyingType="@4d78da49022645f8a8f8df006dbe9c89" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Delay Vector for Freq. Sel. Rayleigh Channel ">
+						<DataType>
+							<VariableArray DereferenceType="Double" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Channel">
+						<DataType>
+							<VariableArray DereferenceType="ComplexDouble" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="UP_lnk_out_all">
+						<DataType>
+							<VariableArray>
+								<DereferenceType>
+									<Typedef TypedefName="UP_lnk.gtype" UnderlyingType="@29c63a2246bf41588dd0b0a173ca818b" />
+								</DereferenceType>
+							</VariableArray>
+						</DataType>
+					</Field>
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c04d7666102c4fd89828e05f92f4e1e6">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Delay">
+						<DataType>
+							<VariableArray DereferenceType="Double" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Gain">
+						<DataType>
+							<VariableArray DereferenceType="ComplexDouble" />
+						</DataType>
+					</Field>
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8ce1a4bffe114eadbb020663b1b08e06">
+			<Typedef TypedefName="UP_sys.gtype" UnderlyingType="@4d78da49022645f8a8f8df006dbe9c89" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f09f9f4952f546e9a9c25ba2f080bcd9">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="h_UT (m)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="v" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="phi_v" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="theta_v" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="t" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,alpha" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,beta" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,gamma" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="zeta_rx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Y_UT (m)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="X_UT (m)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="N,rx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="M,rx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="N_g,rx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="M_g,rx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="u" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Introduce Blockages?" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Self-blocking Mode" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e5fc28189ecc4b44bcc5c7907358d2db">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="X_BS (m)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Y_BS (m)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="h_BS (m)" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,alpha" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,beta" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,gamma" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="zeta_tx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="M,tx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="N,tx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="M_g,tx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="N_g,tx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="s" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e117c3895e024929a1f1fe2c66c1d5ef">
+			<Typedef TypedefName="UP_lnk.gtype" UnderlyingType="@29c63a2246bf41588dd0b0a173ca818b" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="8e6f315628f54adab9dccad73554eb1b">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="X_BS (m)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Y_BS (m)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="h_BS (m)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,alpha" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,beta" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,gamma" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="zeta_tx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="M,tx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="N,tx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="M_g,tx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="N_g,tx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="s" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d1457aa99f4545d7944a4ea23f10860a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="h_UT (m)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="v" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="phi_v" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="theta_v" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="t" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,alpha" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,beta" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,gamma" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="zeta_rx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Y_UT (m)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="X_UT (m)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="N,rx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="M,rx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="N_g,rx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="M_g,rx" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="u" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Introduce Blockages?" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Self-blocking Mode" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4d78da49022645f8a8f8df006dbe9c89">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Scenario">
+						<DataType>
+							<Enumeration>
+								<Members>
+									<EnumerationMember Value="0" Name="UMi - Street Canyon" />
+								</Members>
+								<DataType>
+									<UInt16 />
+								</DataType>
+							</Enumeration>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="f_C (Hz)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="No. of UT" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="UP_BS">
+						<DataType>
+							<Composite Id="2" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+								<Members>
+									<Field FieldAccessPolicy="ReadWrite" Name="X_BS (m)" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Y_BS (m)" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="h_BS (m)" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,alpha" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,beta" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,gamma" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="zeta_tx" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="M,tx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="N,tx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="M_g,tx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="N_g,tx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="s" DataType="Int32" />
+								</Members>
+							</Composite>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="UP_UT">
+						<DataType>
+							<VariableArray>
+								<DereferenceType>
+									<Composite Id="3" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+										<Members>
+											<Field FieldAccessPolicy="ReadWrite" Name="h_UT (m)" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="v" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="phi_v" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="theta_v" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="t" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,alpha" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,beta" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,gamma" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="zeta_rx" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="Y_UT (m)" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="X_UT (m)" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="N,rx" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="M,rx" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="N_g,rx" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="M_g,rx" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="u" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="Introduce Blockages?" DataType="Boolean" />
+											<Field FieldAccessPolicy="ReadWrite" Name="Self-blocking Mode" DataType="Boolean" />
+										</Members>
+									</Composite>
+								</DereferenceType>
+							</VariableArray>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Align BS-UT?" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="29c63a2246bf41588dd0b0a173ca818b">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Scenario LOS-NLOS">
+						<DataType>
+							<Enumeration>
+								<Members>
+									<EnumerationMember Value="0" Name="UMi - Street Canyon (LOS)" />
+									<EnumerationMember Value="1" Name="UMi - Street Canyon (NLOS)" />
+								</Members>
+								<DataType>
+									<UInt16 />
+								</DataType>
+							</Enumeration>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="d_2D (m)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_3D (m)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="f_C (Hz)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="lambda_0" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="phi_LOS,AOA" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="phi_LOS,AOD" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="theta_LOS,ZOA" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="theta_LOS,ZOD" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="BS">
+						<DataType>
+							<Composite Id="2" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+								<Members>
+									<Field FieldAccessPolicy="ReadWrite" Name="X_BS (m)" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Y_BS (m)" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="h_BS (m)" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,alpha" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,beta" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_BS,gamma" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="zeta_tx" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="M,tx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="N,tx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="M_g,tx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="N_g,tx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="s" DataType="Int32" />
+								</Members>
+							</Composite>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="d_V_tx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_H,tx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_V_rx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_H,rx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_g,V,tx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_g,H,tx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_g,V,rx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_g,H,rx" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="d_rx,u">
+						<DataType>
+							<SizedArray LowerBound="3" UpperBound="3" DereferenceType="Double" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="d_tx,s">
+						<DataType>
+							<SizedArray LowerBound="3" UpperBound="3" DereferenceType="Double" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="UT">
+						<DataType>
+							<Composite Id="3" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+								<Members>
+									<Field FieldAccessPolicy="ReadWrite" Name="h_UT (m)" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="v" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="phi_v" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="theta_v" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="t" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,alpha" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,beta" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Omega_UT,gamma" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="zeta_rx" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Y_UT (m)" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="X_UT (m)" DataType="Double" />
+									<Field FieldAccessPolicy="ReadWrite" Name="N,rx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="M,rx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="N_g,rx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="M_g,rx" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="u" DataType="Int32" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Introduce Blockages?" DataType="Boolean" />
+									<Field FieldAccessPolicy="ReadWrite" Name="Self-blocking Mode" DataType="Boolean" />
+								</Members>
+							</Composite>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Align BS-UT?" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

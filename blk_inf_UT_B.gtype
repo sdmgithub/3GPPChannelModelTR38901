@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="8FD3CDBD7FA1FAA02A93E5D0EA3CB762" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@1b209e1c8b9b45d1be80edabdc56af38" Friends="" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="blk_inf_cl_B\.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="4" Left="[float]0" TemplateName="Gray" Top="[float]0">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]blk_inf_UT" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+				<Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Height="[float]34" Id="9" Left="[float]0" Margin="[SMThickness]3,3,3,3" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]34" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@1b209e1c8b9b45d1be80edabdc56af38" Id="15" Name="Array">
+			<p.DefaultValue>null</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="blk_inf_cl_B\.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="10" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="11" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Bindings="Envoy,DefinitionReference,DefaultTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="12" ModelDefinitionType="DefaultTarget" Name="blk_inf_UT_B\.gtype" NameTracksFileName="True">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.PanelCommon.SourceModel.ControlDefinition,EmbeddedReference" Id="13" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="14" xmlns="http://www.ni.com/MocCommon">
+					<ArrayViewer ArrayElement="[UIModel]198" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]286" Id="17" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]18" Left="[float]570" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]274" Value="{DataItemBinding Id=15}" Width="[float]671" xmlns="http://www.ni.com/PanelCommon">
+						<p.DefaultElementValue>
+							<Cluster>
+								<Field1>null</Field1>
+								<Field2>0</Field2>
+							</Cluster>
+						</p.DefaultElementValue>
+						<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@c945beb789b2448aa98050dbeb31a900" Height="[float]259" Id="198" Label="[UIModel]225" Left="[float]53" Top="[float]7" Width="[float]645" p7:ControlDefinitionChecksum="ikG5Iy1Gb+ZADvk3jlpaXA==" xmlns:p7="http://www.ni.com/PanelCommon">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="blk_inf_cl_B\.gtype:ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<p7:ArrayViewer ArrayElement="[UIModel]203" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]178" Id="199" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]201" Left="[float]1" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]71" Value="{ClusterBinding FieldName=Cluster\ Blocker\ Array}" Width="[float]626">
+								<p.DefaultElementValue>
+									<Cluster>
+										<Field1>0x0</Field1>
+										<Field2>0</Field2>
+										<Field3>null</Field3>
+									</Cluster>
+								</p.DefaultElementValue>
+								<p7:Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@a6de5ad9dd0942bb94eea649daa3fa0e" Height="[float]164" Id="203" Label="[UIModel]210" Left="[float]53" Top="[float]7" Width="[float]566">
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="204" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]205" Left="[float]443" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]25" Value="{ClusterBinding FieldName=Cl.\ Attn.\ (ray\ aggr.)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]96" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p7:Label Height="[float]16" Id="205" LabelOwner="[UIModel]204" Left="[float]443" Text="[string]Cl. Attn. (ray aggr.)" Top="[float]2" Width="[float]99" />
+									<NumericText BaseName="[string]Numeric" Height="[float]22" Id="206" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]207" Left="[float]442" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]76" Value="{ClusterBinding FieldName=No.\ of\ Blocked\ Rays}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]96" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+									<p7:Label Height="[float]16" Id="207" LabelOwner="[UIModel]206" Left="[float]442" Text="[string]No. of Blocked Rays" Top="[float]53" Width="[float]106" />
+									<p7:ArrayViewer ArrayElement="[UIModel]211" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]131" Id="208" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]209" Left="[float]0" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]23" Value="{ClusterBinding FieldName=Ray\ Blocker\ Array}" Width="[float]431">
+										<p.DefaultElementValue>
+											<Cluster>
+												<Field1>null</Field1>
+												<Field2>0x0</Field2>
+												<Field3>0</Field3>
+												<Field4>0x0</Field4>
+												<Field5>0</Field5>
+											</Cluster>
+										</p.DefaultElementValue>
+										<p7:Cluster AutoArrange="[AutoArrange]None" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@291a4b0c890e4e3c822e78ddab44e5a5" Height="[float]117" Id="211" Label="[UIModel]222" Left="[float]53" Top="[float]7" Width="[float]371" p7:ControlDefinitionChecksum="Rt0FX/0pOyaeO1HK7RXx0w==">
+											<p7:p.TypeDefinitionTargets>
+												<p7:TypeDefinitionTarget TargetName="blk_inf_ry_B\.gtype:ControlDefinition" />
+											</p7:p.TypeDefinitionTargets>
+											<p7:ArrayViewer ArrayElement="[UIModel]223" BaseName="[string]Array" Columns="[int]3" Dimensions="[int]1" Height="[float]36" Id="212" IndexVisibility="[Visibility]Visible" Label="[UIModel]213" Left="[float]148" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]71" Value="{ClusterBinding FieldName=Location\ (X\,Y\,Z)}" Width="[float]211">
+												<p.DefaultElementValue>0</p.DefaultElementValue>
+												<NumericText BaseName="[string]Numeric" Height="[float]22" Id="223" Interval="[int]1" Label="[UIModel]224" Left="[float]53" MinHeight="[float]22" Top="[float]7" Value="[int]0" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]49" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+													<p7:Label Height="[float]16" Id="224" IsVisualChild="[bool]False" LabelOwner="[UIModel]223" Left="[float]53" Text="[string]Numeric" Top="[float]-16" Width="[float]46" />
+												</NumericText>
+											</p7:ArrayViewer>
+											<p7:Label Height="[float]16" Id="213" LabelOwner="[UIModel]212" Left="[float]148" Text="[string]Location (X,Y,Z)" Top="[float]48" Width="[float]82" />
+											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="214" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Label="[UIModel]215" Left="[float]77" MinHeight="[float]22" Top="[float]74" Value="{ClusterBinding FieldName=Ray\ Attn.}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]61" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+											<p7:Label Height="[float]16" Id="215" LabelOwner="[UIModel]214" Left="[float]77" Text="[string]Ray Attn." Top="[float]51" Width="[float]48" />
+											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="216" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]217" Left="[float]4" MinHeight="[float]22" Top="[float]26" Value="{ClusterBinding FieldName=Ray\ No.}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]61" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+											<p7:Label Height="[float]16" Id="217" LabelOwner="[UIModel]216" Left="[float]4" Text="[string]Ray No." Top="[float]3" Width="[float]41" />
+											<NumericText BaseName="[string]Numeric" Height="[float]22" Id="218" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]219" Left="[float]4" MinHeight="[float]22" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Collapsed" Top="[float]73" Value="{ClusterBinding FieldName=t}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]61" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+											<p7:Label Height="[float]16" Id="219" LabelOwner="[UIModel]218" Left="[float]4" Text="[string]t" Top="[float]50" />
+											<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]22" Id="220" IsTypeAheadEnabled="[bool]True" Label="[UIModel]221" Left="[float]77" Top="[float]25" Value="{ClusterBinding FieldName=Class}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]277" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+												<EnumSelectorInfo DisplayValue="[string]Pedestrian" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+												<EnumSelectorInfo DisplayValue="[string]Vehicle" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+											</EnumSelector>
+											<p7:Label Height="[float]16" Id="221" LabelOwner="[UIModel]220" Left="[float]77" Text="[string]Class" Top="[float]2" Width="[float]27" />
+											<p7:Label Height="[float]16" Id="222" IsVisualChild="[bool]False" LabelOwner="[UIModel]211" Left="[float]53" Text="[string]Ray Blockage Data (B)" Top="[float]-16" Width="[float]116" />
+										</p7:Cluster>
+									</p7:ArrayViewer>
+									<p7:Label Height="[float]16" Id="209" LabelOwner="[UIModel]208" Left="[float]0" Text="[string]Ray Blocker Array" Top="[float]0" Width="[float]110" />
+									<p7:Label Height="[float]16" Id="210" IsVisualChild="[bool]False" LabelOwner="[UIModel]203" Left="[float]53" Text="[string]Blockage Data per Cluster (B)" Top="[float]-16" Width="[float]154" />
+								</p7:Cluster>
+							</p7:ArrayViewer>
+							<NumericText BaseName="[string]Numeric" Height="[float]22" Id="200" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" Label="[UIModel]202" Left="[float]0" MinHeight="[float]22" Top="[float]23" Value="{ClusterBinding FieldName=No.\ of\ Blocked\ Cl.\ at\ time\ t}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]61" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="201" LabelOwner="[UIModel]199" Left="[float]1" Text="[string]Cluster Blocker Array" Top="[float]48" Width="[float]111" />
+							<p7:Label Height="[float]16" Id="202" LabelOwner="[UIModel]200" Left="[float]0" Text="[string]No. of Blocked Cl. at time t" Top="[float]0" Width="[float]142" />
+							<p7:Label Height="[float]16" Id="225" IsVisualChild="[bool]False" LabelOwner="[UIModel]198" Left="[float]53" Text="[string]Cluster" Top="[float]-16" Width="[float]134" />
+						</Cluster>
+					</ArrayViewer>
+					<Label Height="[float]16" Id="18" LabelOwner="[UIModel]17" Left="[float]570" Text="[string]UT Blockage Data (B)" Top="[float]251" Width="[float]111" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="1b209e1c8b9b45d1be80edabdc56af38">
+			<VariableArray>
+				<DereferenceType>
+					<Typedef TypedefName="blk_inf_cl_B.gtype" UnderlyingType="@b9d42cc04bff4fafaf1039a86ccd6f93" />
+				</DereferenceType>
+			</VariableArray>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c945beb789b2448aa98050dbeb31a900">
+			<Typedef TypedefName="blk_inf_cl_B.gtype" UnderlyingType="@b9d42cc04bff4fafaf1039a86ccd6f93" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a6de5ad9dd0942bb94eea649daa3fa0e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Cl. Attn. (ray aggr.)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="No. of Blocked Rays" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Ray Blocker Array">
+						<DataType>
+							<VariableArray>
+								<DereferenceType>
+									<Typedef TypedefName="blk_inf_ry_B.gtype" UnderlyingType="@13181efbcc59458fb9d0a87ae91a8822" />
+								</DereferenceType>
+							</VariableArray>
+						</DataType>
+					</Field>
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="291a4b0c890e4e3c822e78ddab44e5a5">
+			<Typedef TypedefName="blk_inf_ry_B.gtype" UnderlyingType="@13181efbcc59458fb9d0a87ae91a8822" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b9d42cc04bff4fafaf1039a86ccd6f93">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Cluster Blocker Array">
+						<DataType>
+							<VariableArray>
+								<DereferenceType>
+									<Composite Id="2" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+										<Members>
+											<Field FieldAccessPolicy="ReadWrite" Name="Cl. Attn. (ray aggr.)" DataType="Double" />
+											<Field FieldAccessPolicy="ReadWrite" Name="No. of Blocked Rays" DataType="Int32" />
+											<Field FieldAccessPolicy="ReadWrite" Name="Ray Blocker Array">
+												<DataType>
+													<VariableArray>
+														<DereferenceType>
+															<Typedef TypedefName="blk_inf_ry_B.gtype" UnderlyingType="@13181efbcc59458fb9d0a87ae91a8822" />
+														</DereferenceType>
+													</VariableArray>
+												</DataType>
+											</Field>
+										</Members>
+									</Composite>
+								</DereferenceType>
+							</VariableArray>
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="No. of Blocked Cl. at time t" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="13181efbcc59458fb9d0a87ae91a8822">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Location (X,Y,Z)">
+						<DataType>
+							<VariableArray DereferenceType="Int32" />
+						</DataType>
+					</Field>
+					<Field FieldAccessPolicy="ReadWrite" Name="Ray Attn." DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Ray No." DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="t" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Class">
+						<DataType>
+							<Enumeration>
+								<Members>
+									<EnumerationMember Value="0" Name="Pedestrian" />
+									<EnumerationMember Value="1" Name="Vehicle" />
+								</Members>
+								<DataType>
+									<UInt16 />
+								</DataType>
+							</Enumeration>
+						</DataType>
+					</Field>
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
